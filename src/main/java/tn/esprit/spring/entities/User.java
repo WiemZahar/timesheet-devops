@@ -24,7 +24,7 @@ public class User implements Serializable {
 	@Id
 	@GeneratedValue (strategy = GenerationType.IDENTITY)
 	private Long id;   
-	
+	//ceci est un commentaire
 	private String firstName; 
 	
 	private String lastName;
